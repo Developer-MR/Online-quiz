@@ -1,15 +1,3 @@
-# LaraQuiz: Laravel 5.6 based quiz system
-
-It is a demo project for demonstrating what can be generated with [QuickAdminPanel](https://quickadminpanel.com) tool.
-LaraQuiz was mostly generated with __QuickAdmin__ except for some custom code.
-
-It's an open-source version of online Laravel quiz at [LaraQuiz.com](http://laraquiz.com) - but the system can be used for any quiz project, you just fill in different topics and questions.
-
-__Notice__: originally created with Laravel 5.3, it was upgraded to Laravel 5.6 in March 2018.
-
-![LaraQuiz screenshot](http://webcoderpro.com/laraquiz-demo1.png)
-
-![LaraQuiz screenshot 2](http://webcoderpro.com/laraquiz-demo2.png)
 
 ## How to use
 
@@ -24,7 +12,7 @@ __Notice__: originally created with Laravel 5.3, it was upgraded to Laravel 5.6 
 - Run __composer install__
 - Run __php artisan key:generate__
 - Run __php artisan migrate --seed__ (it has some seeded data for your testing)
-- Now you can login as admin: launch the main URL and login with default credentials __admin@admin.com__ - __password__
+- Now you can login as admin: launch the main URL and login with default credentials __admin@gmail.com__ - __password__ admin123
 - Fill in the database with topics, questions and options
 - For social login - fill in the credentials of your social apps in .env file
 - That's it - allow people to register and take quizzes!
